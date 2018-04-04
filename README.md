@@ -151,7 +151,7 @@ npm run build:dev
 The webpack build creates a bundle called `dist/main.js`. 
 Modify the `index.html` to point to the bundled javascript:
 ```html
-<script type="text/javascript" src="/dist/main.js">
+<script type="text/javascript" src="/dist/main.js"></script>
 ```
 
 Check the whether the app still works with `lite-server`.
