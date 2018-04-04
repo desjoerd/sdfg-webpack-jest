@@ -122,7 +122,7 @@ import { add, subtract, multiply, divide } from './operators.js';
 #### 4.Optional
 The latest browsers can use ESModules if we change the `<script>` tag type in `index.html` to `module`:
 ```html
-<script type="module" src="/src/app.js">
+<script type="module" src="/src/app.js"></script>
 ```
 
 ### 5. Webpack
